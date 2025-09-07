@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="icon" type="image/x-icon" href="./assest/img/agri/Logo.png">
+    <link rel="stylesheet" href="./assest/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--blur">Kênh Người Bán</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            <span class="header__navbar-item--blur">Tải ứng dụng</span>
+                            <!-- QR code -->
+                            <div class="header__qr">
+                                <img src="./assest/img/qr_code.png" alt="QR code" class="header__qr-code">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-download-img">
+                                        <img src="./assest/img/google_play.png" alt="google play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-download-img">
+                                        <img src="./assest/img/app_store.png" alt="app store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            Kết nối
+                            <a href="https://www.facebook.com/profile.php?id=61555523429306" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/quocvietagri/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#" class="header__navbar-icon-link"><i class="header__navbar-icon header__navbar-icon--ins ti-instagram"></i></a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link header__navbar-item--blur">
+                                <i class="header__navbar-icon ti-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assest/img/agri/ra-hoa-dau-trai.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Thuốc Trừ Sâu EMA SINH HỌC (Chai 450ml) - Diệt Sâu Rầy, An Toàn Cây Trồng</span>
+                                                
+                                                <span class="header__notify-describe">Giá chỉ còn: 150.000 (Giá gốc: 500.000 vnd)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assest/img/agri/phan-bon-kich-re-rootin.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Phân Bón Kích Rễ ROOTIN (Chai 450ml) - Siêu Phục Hồi Cây, Chống Vàng Lá</span>
+                                                <span class="header__notify-describe">Giá chỉ còn: 120.000 (Giá gốc: 400.000 vnd)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assest/img/agri/thuoc-tru-sau-ema.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Thuốc Trừ Sâu EMA SINH HỌC (Chai 450ml) - Diệt Sâu Rầy, An Toàn Cây Trồng</span>
+                                                <span class="header__notify-describe">Giá chỉ còn: 1250.000 (Giá gốc: 450.000 vnd)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item--blur">
+                                <i class="header__navbar-icon ti-help-alt"></i>
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navber-heading--language"> 
+                            <div class=" header__navbar-item--blur">
+                                <i class="header__navbar-icon ti-world"></i>
+                                Tiếng Việt
+                                <i class="header__navbar-icon ti-angle-down"></i>
+                            </div>
+
+                            <div class="header__language">
+                                <ul class="header__language-list">
+                                    <a href="" class="header__language-item">Tiếng Việt</a>
+                                    <a href="" class="header__language-item">English</a>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--blur header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--blur">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assest/img/avatar.png" alt="" class="header__navbar-user-ava">
+                            <span class="header__navbar-name-user">Phạm Hoàng Vũ</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li>
+                                    <a href="" class="header__navbar-user-item">Tài Khoản Của Tôi</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__navbar-user-item">Đơn Mua</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__navbar-user-item">Đăng Xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="./assest/img/agri/Logo.png" alt="Logo">                       
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                            
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="#">Phân bón</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="#">Thuốc tăng trưởng</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="#">Thuốc trừ sâu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon ti-search"></i>
+                        </button>     
+                    </div>
+
+                    <div class="header__cart">
+                        <div class="header__cart-all-list">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i> 
+                            <span class="header__cart-notice">3</span>
+
+                            <div class="header__cart-list">
+                                <!-- No item  header__cart-list--no-cart-->
+                                <img src="./assest/img/no-cart.png" alt="" class="header__no-cart-img">
+                                <h3 class="header__no-cart-text">CHƯA CÓ SẢN PHẨM</h3>
+
+                                <!-- Has item -->
+                                <h4 class="header__cart-heading"> Sản Phẩm Mới Thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="https://quocvietagri.com/cdn/shop/files/RootinFront.jpg?v=1753084807&width=360" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <h5 class="header__cart-item-name">Phân Bón Kích Rễ ROOTIN (Chai 450ml) - Siêu Phục Hồi Cây, Chống Vàng Lá</h5>
+                                            <span class="header__cart-item-price">89.100đ</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://quocvietagri.com/cdn/shop/files/QVA-BaDang500Wp-100G.jpg?v=1752244109&width=1100" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <h5 class="header__cart-item-name">Thuốc Trừ Sâu BA ĐĂNG 500WP (Gói 100g) - Đặc Trị Rệp Sáp, Bọ Trĩ Kháng Thuốc</h5>
+                                            <span class="header__cart-item-price">34.000đ</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://quocvietagri.com/cdn/shop/files/QVA-10-60-10-1KG.jpg?v=1752237796&width=533" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <h5 class="header__cart-item-name">Phân Bón Tạo Mầm Hoa SIÊU TẠO MẦM 10-60-10 (Gói 1kg) - Kích Ra Hoa, Chặn Đọt</h5>
+                                            <span class="header__cart-item-price">83.000đ</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn--primary header__cart-btn">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon ti-menu-alt"></i>
+                                Danh Mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item--active">
+                                    <a href="" class="category-item__link">Sản phẩm</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Phân bón cao cấp</a>
+                                </li>
+                                
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thuốc bảo vệ thực vật</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thuốc nấm khuẩn</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thuốc phòng cỏ dại</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon ti-angle-down"></i>
+
+                                <!-- List options -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến Cao</a>
+                                    </li>
+                                    <li class="select-input__item">                            
+                                        <a href="" class="select-input__link">Giá: Cao đến Thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-hov">
+                                        <i class="home-filter__page-icon ti-angle-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn home-filter__page-no--hov">
+                                        <i class="home-filter__page-icon ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <!-- Row 1 -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/qvazeb-72wp">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/QVA-Zeb-1KG.jpg?v=1752118792&width=493);"></div>
+                                        <h4 class="home-product-item__name">Thuốc Trừ Bệnh QVAZEB XANH (Fortazeb 72WP) (Gói 500g) - Đặc Trị Nứt Thân Xì Mủ, Chết Nhanh</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">140.000đ</span>
+                                            <span class="home-product-item__price-new">134.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 5k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/tinh-ch%E1%BA%A5t-d%E1%BB%93ng-nano-cu-chai-500ml-r%E1%BB%ADa-v%C6%B0%E1%BB%9Dn-tr%E1%BB%8B-n%E1%BA%A5m-khu%E1%BA%A9n-cong-ngh%E1%BB%87-nano-qu%E1%BB%91c-vi%E1%BB%87t-agri">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/QVA-TinhChatDong-450ML.png?v=1749563564&width=533);"></div>
+                                        <h4 class="home-product-item__name">Tinh Chất Đồng NANO CU (Chai 500ml) - Rửa Vườn, Trị Nấm Khuẩn Công Nghệ Nano - Quốc Việt Agri</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">100.000đ</span>
+                                            <span class="home-product-item__price-new">85.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 15k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/phan-bon-la-npk-sieu-lan-10-60-10-te-qva-goi-1kg">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/QVA-10-60-10-1KG.jpg?v=1752237796&width=533);"></div>
+                                        <h4 class="home-product-item__name">Phân Bón Tạo Mầm Hoa SIÊU TẠO MẦM 10-60-10 (Gói 1kg) - Kích Ra Hoa, Chặn Đọt</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">97.000đ</span>
+                                            <span class="home-product-item__price-new">83.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star-half-stroke"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 3k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/phan-bon-la-sieu-lan-10-60-10">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/QVASieuLan10-60-10.png?v=1729575785&width=533);"></div>
+                                        <h4 class="home-product-item__name">SIÊU LÂN 10-60-10 QVA (Hộp 1KG) – Kích Thích Phân Hóa Mầm Hoa, Siêu Ra Hoa - Quốc Việt Agri</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">130.000đ</span>
+                                            <span class="home-product-item__price-new">99.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 7k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/combo-10-goi-thu%E1%BB%91c-tr%E1%BB%AB-sau-oshin-20wp-tr%E1%BB%8B-r%E1%BA%A7y-b%E1%BB%8D-tri-nh%E1%BA%ADt-b%E1%BA%A3n">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/combo-thuoc-tru-sau-oshin-20wp.jpg?v=1756206627&width=533);"></div>
+                                        <h4 class="home-product-item__name">(Combo 10 Gói) Thuốc Trừ Sâu Oshin 20WP - Trị Rầy, Bọ Trĩ | Nhật Bản</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">150.000đ</span>
+                                            <span class="home-product-item__price-new">103.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 10k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/binhtox-3-8ec-bao-den-450ml-thu%E1%BB%91c-tr%E1%BB%AB-sau-sinh-h%E1%BB%8Dc-abamectin-n%C6%B0%E1%BB%9Bc-trong-di%E1%BB%87t-sau-r%E1%BA%A7y-nh%E1%BB%87n-qu%E1%BB%91c-vi%E1%BB%87t-agri">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/BMC-Binhtox3.8BaoDen-450ML.png?v=1747766696&width=533);"></div>
+                                        <h4 class="home-product-item__name">BINHTOX 3.8EC (BÁO ĐEN, 450ml) – Thuốc Trừ Sâu Sinh Học Abamectin, Nước Trong, Diệt Sâu Rầy Nhện - Quốc Việt Agri</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">110.000đ</span>
+                                            <span class="home-product-item__price-new">87.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star-half-stroke"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 6k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/decis-2-5ec-repel-bayer-100ml-thu%E1%BB%91c-tr%E1%BB%AB-sau-deltamethrin-di%E1%BB%87t-nhanh-xua-du%E1%BB%95i-con-trung-qu%E1%BB%91c-vi%E1%BB%87t-agri">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/Sygenta-Decis-100ML.png?v=1748025241&width=533);"></div>
+                                        <h4 class="home-product-item__name">DECIS 2.5EC Repel (Bayer, 100ml) – Thuốc Trừ Sâu Deltamethrin, Diệt Nhanh, Xua Đuổi Côn Trùng - Quốc Việt Agri</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">70.000đ</span>
+                                            <span class="home-product-item__price-new">31.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 4k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/thu%E1%BB%91c-tr%E1%BB%AB-sau-kosho-ohayo-240sc-goi-20ml-bmc-chlorfenapyr-240g-l-di%E1%BB%87t-sau-cu%E1%BB%91n-la-d%E1%BB%A5c-than-b%E1%BB%8D-tri-nh%E1%BB%87n-r%E1%BB%87p-sap">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/kosho-ohayo.jpg?v=1752491224&width=533);"></div>
+                                        <h4 class="home-product-item__name">KOSHO OHAYO 240SC (Gói 20ml) – Thuốc Trừ Sâu Chlorfenapyr, Diệt Sâu Cuốn Lá, Bọ Trĩ, Nhện</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-new">17.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star-half-stroke"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 9k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/b%E1%BB%99-doi-tr%E1%BB%AB-b%E1%BB%87nh-apn-pro-pilarzox-255sc-metho-fen-50sc-d%E1%BA%B7c-tr%E1%BB%8B-th%E1%BB%91i-trai-s%E1%BA%A7u-rieng-s%C6%B0%C6%A1ng-mai-qu%E1%BB%91c-vi%E1%BB%87t-agri">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/APN-APNPRO.png?v=1748893933&width=533);"></div>
+                                        <h4 class="home-product-item__name">Bộ Đôi Trừ Bệnh APN PRO (Pilarzox 255SC + Metho Fen 50SC) - Đặc Trị Thối Trái Sầu Riêng, Sương Mai - Quốc Việt Agri</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">600.000đ</span>
+                                            <span class="home-product-item__price-new">549.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 10k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/products/n%E1%BA%A5m-d%E1%BB%91i-khang-trichoderma-trichotec-1kg-c%E1%BA%A3i-t%E1%BA%A1o-d%E1%BA%A5t-di%E1%BB%87t-n%E1%BA%A5m-b%E1%BB%87nh">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/nam-doi-khang-trichoderma-trichotec.jpg?v=1753529237&width=533);"></div>
+                                        <h4 class="home-product-item__name">Nấm Đối Kháng Trichoderma TRICHOTEC (1kg) - Cải Tạo Đất, Diệt Nấm Bệnh</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">85.000đ</span>
+                                            <span class="home-product-item__price-new">73.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 2k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Row 3 -->
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/collections/thu%E1%BB%91c-tr%E1%BB%AB-c%E1%BB%8F/products/combo-10-chai-thu%E1%BB%91c-c%E1%BB%8F-trau-r%E1%BB%ABng-den-900ml-di%E1%BB%87t-c%E1%BB%8F-t%E1%BA%ADn-g%E1%BB%91c">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/combo-trau-rung-den.jpg?v=1755233067&width=533);"></div>
+                                        <h4 class="home-product-item__name">(Combo 10 Chai) Thuốc Cỏ Trâu Rừng Đen 900ml - Diệt Cỏ Tận Gốc</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">500.000đ</span>
+                                            <span class="home-product-item__price-new">479.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 18k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/collections/thu%E1%BB%91c-tr%E1%BB%AB-c%E1%BB%8F/products/combo-5-chai-thu%E1%BB%91c-c%E1%BB%8F-trau-r%E1%BB%ABng-den-900ml-di%E1%BB%87t-c%E1%BB%8F-t%E1%BA%ADn-g%E1%BB%91c">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/thuoc-tru-co-trau-rung-den-150sl.jpg?v=1753939795&width=1100);"></div>
+                                        <h4 class="home-product-item__name">(Combo 5 Chai) Thuốc Cỏ Trâu Rừng Đen 900ml - Diệt Cỏ Tận Gốc</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">280.000đ</span>
+                                            <span class="home-product-item__price-new">240.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 13k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/collections/thu%E1%BB%91c-tr%E1%BB%AB-c%E1%BB%8F/products/thu%E1%BB%91c-di%E1%BB%87t-c%E1%BB%8F-kanup-480sl-chai-900ml-sinasin-200sl-tr%E1%BB%AB-c%E1%BB%8F-l%C6%B0u-d%E1%BA%ABn-m%E1%BA%A1nh-di%E1%BB%87t-t%E1%BA%ADn-g%E1%BB%91c-r%E1%BB%85-c%E1%BB%8F">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/thuoc-tru-co-KANUP.jpg?v=1752369589&width=1100);"></div>
+                                        <h4 class="home-product-item__name">Thuốc Cỏ Lưu Dẫn KANUP 480SL (SINASIN 200SL) (Chai 900ml) - Diệt Cỏ Tận Gốc</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">75.000đ</span>
+                                            <span class="home-product-item__price-new">68.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 1k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/collections/thu%E1%BB%91c-tr%E1%BB%AB-n%E1%BA%A5m-khu%E1%BA%A9n/products/antracol-70wp-100g-1kg-thu%E1%BB%91c-tr%E1%BB%AB-n%E1%BA%A5m-propineb-ao-giap-k%E1%BA%BDm-b%E1%BA%A3o-v%E1%BB%87-cay-toan-di%E1%BB%87n-qu%E1%BB%91c-vi%E1%BB%87t-agri">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/Bayern-Antracol-100G-1KG.png?v=1748459743&width=533);"></div>
+                                        <h4 class="home-product-item__name">Nấm Đối Kháng Trichoderma TRICHOTEC (1kg) - Cải Tạo Đất, Diệt Nấm Bệnh</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-new">38.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star-half-stroke"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 3k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="https://quocvietagri.com/collections/phan-bon/products/ch%E1%BA%A5t-di%E1%BB%81u-hoa-sinh-tr%C6%B0%E1%BB%9Fng-super-cat-goi-10g-v%E1%BA%AFc-xin-ch%E1%BB%91ng-s%E1%BB%91c-cho-cay">
+                                        <div class="home-product-item__img" style="background-image: url(https://quocvietagri.com/cdn/shop/files/dieu-hoa-sinh-truong-super-cat.jpg?v=1754539857&width=533);"></div>
+                                        <h4 class="home-product-item__name">Chất Điều Hòa Sinh Trưởng Super Cat (Gói 10g) - Vắc-xin Chống Sốc Cho Cây</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">160.000đ</span>
+                                            <span class="home-product-item__price-new">147.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__heart home-product-item__heart--hearted">
+                                                <i class="home-product-item__heart--icon fa-regular fa-heart"></i>
+                                                <i class="home-product-item__hearted--icon fa-solid fa-heart"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item-rank">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 11k+</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon ti-angle-left"></i>
+                                </a>
+                            </li>
+                        
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <span class="pagination-item__link">...</span>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon ti-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Quoc Viet Agri Mail</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về Quoc Viet Agri</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều Khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4"></div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"><i class="footer-item-icon fa-brands fa-facebook"></i> Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"><i class="footer-item-icon fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"><i class="footer-item-icon fa-brands fa-square-linkedin"></i> Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">chính sách vận chuyển</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Thời Gian Xử Lý Đơn Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phí Vận Chuyển và Thời Gian Giao Hàng Dự Kiến</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Khu Vực Hạn Chế Vận Chuyển</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Vật Liệu Nguy Hiểm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Xác Nhận Giao Hàng và Theo Dõi Đơn Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hàng Hóa Hư Hỏng và Thiếu Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trả Lại Đơn Hàng Do Không Thể Giao</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <span class="footer__main">The website was created by Vu <i class="fa-solid fa-heart" style="color: #e66565;"></i> <i class="fa-solid fa-heart" style="color: #e66565;"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal layout -->
+        <div class="modal">
+            <div class="modal__overlay">
+
+            </div>
+
+            <div class="modal__body">
+                <!-- Register form -->
+                <div class="auth-form"> 
+                    <div class="auth__form-container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form-switch-btn">Đăng nhập</span>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form-input" placeholder="Email của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form-input" placeholder="Mật khẩu của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form-input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Quocvietagri về
+                            <a href="" class="auth-form__text-link">Điều khoản dịnh vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form-control">
+                        <button class="btn auth-form-control-back btn-normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary btn-normal">ĐĂNG KÝ</button>
+                    </div>
+                    <div class="auth-form-socials">
+                        <a href="" class="auth-form-socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form-socials-icon ti-facebook"></i>
+                            <span class="auth-form-socials-text">Kết nối với Facebook</span>
+                        </a>
+                        
+                        <a href="" class="auth-form-socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form-socials-icon ti-google"></i>
+                            <span class="auth-form-socials-text">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Login form -->
+                <div class="auth-form">
+                    <div class="auth__form-container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form-switch-btn">Đăng ký</span>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form-input" placeholder="Email của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form-input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link">Quên Mật Khẩu</a>
+                            <a href="" class="auth-form__help-link">Cần Trợ Giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form-control">
+                        <button class="btn auth-form-control-back btn-normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary btn-normal">ĐĂNG NHẬP</button>
+                    </div>
+                    <div class="auth-form-socials">
+                        <a href="" class="auth-form-socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form-socials-icon ti-facebook"></i>
+                            <span class="auth-form-socials-text">Đăng nhập với Facebook</span>
+                        </a>
+                        
+                        <a href="" class="auth-form-socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form-socials-icon ti-google"></i>
+                            <span class="auth-form-socials-text">Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI code -->
+    <script>
+        // Lấy tất cả các span chứa heart
+        const heartItems = document.querySelectorAll('.home-product-item__heart');
+
+        // Hàm hiển thị trái tim đầy
+        function showHearted(heart, heartIcon, heartedIcon) {
+            heartIcon.style.display = 'none';
+            heartedIcon.style.display = 'inline-block';
+        }
+
+        // Hàm hiển thị trái tim rỗng
+        function showUnhearted(heart, heartIcon, heartedIcon) {
+            heartedIcon.style.display = 'none';
+            heartIcon.style.display = 'inline-block';
+        }
+
+        // Lặp qua từng sản phẩm
+        for (const heart of heartItems) {
+            const heartIcon = heart.querySelector('.home-product-item__heart--icon');
+            const heartedIcon = heart.querySelector('.home-product-item__hearted--icon');
+
+            heartIcon.addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn reload trang
+            showHearted(heart, heartIcon, heartedIcon);
+        });
+
+        heartedIcon.addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn reload trang
+            showUnhearted(heart, heartIcon, heartedIcon);
+        });
+        }
+    </script>
+</body>
+</html>
