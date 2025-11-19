@@ -1,3 +1,4 @@
 Mọi thứ đều nằm ở mức giao diện
 Mức độ hiện tại: Tim > Số lượng 
 Web đang mặc định là đang nhập rồi (Có giao diện nhưng chưa thể đăng nhập hay đăng ký)
+Chưa có giao diện admin
