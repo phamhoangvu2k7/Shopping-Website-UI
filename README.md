@@ -47,10 +47,3 @@ Mở file `index.html` trong trình duyệt để chạy.
 Nếu bạn thích dự án này, hãy ⭐ repo và kết nối với mình:  
 [GitHub Profile](https://github.com/phamhoangvu2k7)
 
----
-
-### 🔖 Badges
-![HTML](https://img.shields.io/badge/code-HTML-orange)
-![CSS](https://img.shields.io/badge/style-CSS-blue)
-![JavaScript](https://img.shields.io/badge/script-JS-yellow)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
